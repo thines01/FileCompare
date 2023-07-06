@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ApplicationIcon>TomHines.ico</ApplicationIcon>
+    <StartupObject>FileCompare.Program</StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="TomHines.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="ArgMap">
+      <HintPath>..\ArgMap\bin\Release\net6.0\ArgMap.dll</HintPath>
+    </Reference>
+    <Reference Include="NowTime">
+      <HintPath>..\NowTime\bin\Release\net6.0\NowTime.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

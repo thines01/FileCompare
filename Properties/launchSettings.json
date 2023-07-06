@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "FileCompare": {
+      "commandName": "Project",
+      "commandLineArgs": "MasterDir=c:\\science\\data\\1tpm CompDir=c:\\science\\data\\2tpm Pattern=*.tpm OutputFile=c:\\science\\data\\FileComp.txt"
+    }
+  }
+}
